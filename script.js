@@ -260,6 +260,9 @@ btn.addEventListener('click', function(e) {
     
     else if (value == 'acesso   empreendimento' || value == 'permissoes' || value == 'usuarios' || value == 'empresa'){
         document.getElementById('result').innerHTML = 'Sistema > Cadastros'
+    }
+    else if (value == '__criador__'){
+        document.getElementById('result').innerHTML = 'Thiago Magno <br> @thgmagno'
     } else {
         document.getElementById('result').innerHTML = 'não encontrado';
       }   
