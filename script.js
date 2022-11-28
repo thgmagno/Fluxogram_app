@@ -268,7 +268,7 @@ btn.addEventListener('click', function(e) {
 
 // MÓDULO GERAL
 
-    else if (value == 'entidades' || value == 'feriados' || value == 'marcas' || value == 'despesas' || value == 'atividades'){
+    else if (value == 'entidades' || value == 'feriados' || value == 'marcas' || value == 'despesas' || value == 'atividades' || value == 'categorias'){
         document.getElementById('result').innerHTML = 'Geral > Cadastros'
     }
     
