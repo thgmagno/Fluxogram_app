@@ -246,7 +246,7 @@ btn.addEventListener('click', function(e) {
 
 // MÓDULO INDUSTRIALIZAÇÃO
 
-    else if (value == 'Produtos' || value == 'grupo produtos' || value == 'etapas producao' || value == 'tipo produtos' || value == 'linha producao' || value == 'linhas producao' || value == 'composicao' || value == 'familia produto'){
+    else if (value == 'produtos' || value == 'grupo produtos' || value == 'etapas producao' || value == 'tipo produtos' || value == 'linha producao' || value == 'linhas producao' || value == 'composicao' || value == 'familia produto'){
         document.getElementById('result').innerHTML = 'Industrialização > Cadastros'
     }
 
