@@ -17,7 +17,7 @@ body{
 #logo{
     position: absolute;
     margin-top: 12px;
-    margin-left: 78px;
+    margin-left: 76px;
     width: 56px;
 }
 
@@ -28,8 +28,9 @@ body{
     margin-left: 120px;
     color: #9ddbca;
     text-transform: uppercase;
-    background-color: black;
+    background-color: #000;
     border-radius: 0 6px 6px 0;
+    outline: solid 3px #000;
     letter-spacing: 2px;
 }
 

@@ -17,6 +17,8 @@ btn.addEventListener('click', function(e) {
 
 // CONDICIONAIS 
 
+// MÓDULO COMERCIAL
+
     if (value == 'orcamento pedido' || value == 'pedido contrato' || value == 'montagem de carga'){
         document.getElementById('result').innerHTML = 'Comercial > Procedimentos';
     }
@@ -27,6 +29,7 @@ btn.addEventListener('click', function(e) {
         document.getElementById('result').innerHTML = 'Comercial > Relatórios';
     }
 
+// MÓDULO ENGENHARIA
     
     else if (value == 'planilha orcamento'){
         document.getElementById('result').innerHTML = 'Engenharia > Orçamento > Procedimentos'
@@ -70,11 +73,6 @@ btn.addEventListener('click', function(e) {
         document.getElementById('result').innerHTML = 'Engenharia > Gestão Terceiros'
     }    
     
-    // DUPLICADO
-    //else if (value == 'boletim terceiros'){
-    //    document.getElementById('result').innerHTML = 'Engenharia > Gestão Terceiros > Relatórios'
-    //}
-    
     else if (value == 'cadastro registro fotografico' || value == 'cadastro de informes' || value == 'pga' || value == 'cadastro relatorio m ambiental' || value == 'cadastro de licenças' || value == 'cadastro de art'){
         document.getElementById('result').innerHTML = 'Engenharia > Gestão Ambiental'
     }
@@ -82,7 +80,7 @@ btn.addEventListener('click', function(e) {
         document.getElementById('result').innerHTML = 'Engenharia > Gestão Ambiental > Relatórios'
     }
     
-    // MÓDULO FINANCEIRO
+// MÓDULO FINANCEIRO
     
     else if (value == 'forma pagamento' || value == 'plano de conta' || value == 'condicoes de pagamento'){
         document.getElementById('result').innerHTML = 'Financeiro > Cadastros'
@@ -132,6 +130,9 @@ btn.addEventListener('click', function(e) {
         document.getElementById('result').innerHTML = 'Gestão Fiscal'
     }
     
+
+// MÓDULO GESTÃO FISCAL
+
     else if (value == 'icms   cfop' || value == 'icms   documento'){
         document.getElementById('result').innerHTML = 'Gestão Fiscal > Relatórios > Mov Saída - ICMS'
     }
@@ -155,6 +156,9 @@ btn.addEventListener('click', function(e) {
         document.getElementById('result').innerHTML = 'Gestão Fiscal > Central Controle'
     }
     
+
+// MÓDULO GESTÃO DE ATIVOS
+
     else if (value == 'boletim frete apropriacao' || value == 'boletim betoneira' || value == 'boletim bomba' || value == 'boletim frete'){
         document.getElementById('result').innerHTML = 'Gestão Ativos > Apropriação'
     }
@@ -187,6 +191,9 @@ btn.addEventListener('click', function(e) {
         document.getElementById('result').innerHTML = 'Gestão Ativos > Gestão Aluguel > Relatórios'
     }
     
+
+// MÓDULO SUPRIMENTOS
+
     else if (value == 'requisicao compras' || value == 'cotacao compras' || value == 'pedido compras' || value == 'acompanhamento' || value == 'cotacao'){
         document.getElementById('result').innerHTML = 'Suprimentos > Compras'
     }
@@ -211,6 +218,9 @@ btn.addEventListener('click', function(e) {
         document.getElementById('result').innerHTML = 'Suprimentos > Estoque > Relatórios'
     }
     
+
+// MÓDULO PCP
+
     else if (value == 'mao obra producao' || value == 'producao terceiro'){
         document.getElementById('result').innerHTML = 'PCP > Cadastros'
     }
@@ -226,10 +236,16 @@ btn.addEventListener('click', function(e) {
         document.getElementById('result').innerHTML = 'PCP > Relatórios'
     }
     
+
+// MÓDULO GERENCIAMENTO ELETRONICO
+
     else if (value == 'gerenciamento elet docs.' || value == 'ged' || value == 'ge.d'){
         document.getElementById('result').innerHTML = 'G.E.D'
     }
     
+
+// MÓDULO INDUSTRIALIZAÇÃO
+
     else if (value == 'Produtos' || value == 'grupo produtos' || value == 'etapas producao' || value == 'tipo produtos' || value == 'linha producao' || value == 'linhas producao' || value == 'composicao' || value == 'familia produto'){
         document.getElementById('result').innerHTML = 'Industrialização > Cadastros'
     }
@@ -241,11 +257,17 @@ btn.addEventListener('click', function(e) {
     else if (value == 'relatorio composicao'){
         document.getElementById('result').innerHTML = 'Industrializacao > Relatórios'
     }
+  
     
+// MÓDULO WORKFLOW
+
     else if (value == 'minhas pendencias' || value == 'grade aprovacao'){
         document.getElementById('result').innerHTML = 'WorkFlow'
     }
     
+
+// MÓDULO GERAL
+
     else if (value == 'entidades' || value == 'feriados' || value == 'marcas' || value == 'despesas' || value == 'atividades'){
         document.getElementById('result').innerHTML = 'Geral > Cadastros'
     }
@@ -254,15 +276,15 @@ btn.addEventListener('click', function(e) {
         document.getElementById('result').innerHTML = 'Geral > Relatórios'
     }
     
+
+// MÓDULO SISTEMA
+
     else if (value == 'senha' || value == 'trocar senha' || value == 'acompanhamento email'){
         document.getElementById('result').innerHTML = 'Sistema'
     }
     
     else if (value == 'acesso   empreendimento' || value == 'permissoes' || value == 'usuarios' || value == 'empresa'){
         document.getElementById('result').innerHTML = 'Sistema > Cadastros'
-    }
-    else if (value == '__criador__'){
-        document.getElementById('result').innerHTML = 'Thiago Magno <br> @thgmagno'
     } else {
         document.getElementById('result').innerHTML = 'não encontrado';
       }   
