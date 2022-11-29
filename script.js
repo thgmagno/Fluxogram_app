@@ -86,7 +86,7 @@ btn.addEventListener('click', function(e) {
         document.getElementById('result').innerHTML = 'Financeiro > Cadastros'
     }
     
-    else if (value == 'inclusao de contas a pagar' || value == 'aprovacao de pagamentos' || value == 'processamento cnab'){
+    else if (value == 'inclusao de contas a pagar' || value == 'aprovacao pagamentos' || value == 'processamento cnab'){
         document.getElementById('result').innerHTML = 'Financeiro > Contas a Pagar'
     }
     
