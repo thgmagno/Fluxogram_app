@@ -82,7 +82,7 @@ btn.addEventListener('click', function(e) {
     
 // MÓDULO FINANCEIRO
     
-    else if (value == 'forma pagamento' || value == 'plano de conta' || value == 'condicoes de pagamento'){
+    else if (value == 'forma pagamento' || value == 'plano de conta' || value == 'condicoes pagamento'){
         document.getElementById('result').innerHTML = 'Financeiro > Cadastros'
     }
     
