@@ -85,6 +85,7 @@ body{
     position: absolute;
     border: solid 2px black;
     background-color: #d8f5d1;
+    border-radius: 8px
 }
 
 #result{
