@@ -37,7 +37,7 @@ btn.addEventListener('click', function(e) {
     else if (value == 'cadastro insumos' || value == 'cadastro composicoes'){
         document.getElementById('result').innerHTML = 'Engenharia > Orçamento > Cadastros'
     }
-    else if (value == 'orcamento sintetico' || value == 'orcamento analitico' || value == 'curva abc insumos' || value == 'curva abc composições'){
+    else if (value == 'orcamento sintetico' || value == 'orcamento analitico' || value == 'curva abc insumos' || value == 'curva abc composicoes'){
         document.getElementById('result').innerHTML = 'Engenharia > Orçamento > Relatórios'
     }
     else if (value == 'fisico financeiro'){
